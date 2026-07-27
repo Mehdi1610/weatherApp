@@ -32,7 +32,7 @@ jobs:
 
       - name: Check build
         run: |
-          ls -R dist/memoryGame
+          ls -R dist/weatherApp
     
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
